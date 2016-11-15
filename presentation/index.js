@@ -77,6 +77,22 @@ export default class Presentation extends React.Component {
 
           <Slide transition={["slide"]}>
             <Heading size={2} textColor="headingColor">
+              Sponsors
+            </Heading>
+                <Image src={images.stockwerk.replace("/", "")} width="100%" />
+                Awesome co-working space
+            </Slide>
+
+          <Slide transition={["slide"]}>
+            <Heading size={2} textColor="headingColor">
+              Sponsors
+            </Heading>
+              <Image src={images.techtalk.replace("/", "")} width="100%" bgColor={"white"}/>
+              Delivering Software with Impact
+          </Slide>
+
+          <Slide transition={["slide"]}>
+            <Heading size={2} textColor="headingColor">
               Talks
             </Heading>
             <List>
@@ -87,16 +103,8 @@ export default class Presentation extends React.Component {
             </List>
           </Slide>
 
-          <Slide transition={["slide"]}>
-            <Heading size={2} textColor="headingColor">
-              Sponsors
-            </Heading>
-            <List>
-              <Image src={images.stockwerk.replace("/", "")} width="50%" />
-              <Image src={images.techtalk.replace("/", "")} width="50%" />              
-            </List>
-          </Slide>
-          
+
+
         </Deck>
       </Spectacle>
     );
