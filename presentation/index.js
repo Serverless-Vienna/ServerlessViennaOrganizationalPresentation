@@ -1,16 +1,3 @@
-// Organizational Slides
-// Serverless meetup
-// Agenda
-
-// 2 Talks
-// break
-// Talk
-
-// Sponsor auf Folie erwähnen, Seminar nicht
-
-
-
-
 // Import React
 import React from "react";
 
@@ -102,9 +89,7 @@ export default class Presentation extends React.Component {
               <ListItem>Introduction to the Serverless Framework - Nik</ListItem>
             </List>
           </Slide>
-
-
-
+          
         </Deck>
       </Spectacle>
     );
